@@ -1,7 +1,9 @@
 # esp32 wifi 投屏到oled显示
 
 #### 介绍
-有arduino 和microPython两个版本，esp8266和esp32均支持，wifi无线投屏，B站：super大大怪i
+有arduino 和microPython两个版本，esp8266和esp32均支持，wifi无线投屏
+B站：super大大怪i
+
 oled显示助手链接：
 复制这段内容后打开百度网盘App，操作更方便哦。 
 链接:https://pan.baidu.com/s/1vYzb4HZ_ok3S7kn4yLdSwQ 
