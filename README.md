@@ -2,7 +2,14 @@
 
 #### 介绍
 有arduino 和microPython两个版本，esp8266和esp32均支持，wifi无线投屏，B站：super大大怪i
-因为热爱，所以追逐。
+oled显示助手链接：
+复制这段内容后打开百度网盘App，操作更方便哦。 
+链接:https://pan.baidu.com/s/1vYzb4HZ_ok3S7kn4yLdSwQ 
+提取码:m1ys
+
+关于软件，大家可以提出意见或想法，我会优化
+后续再写简介····
+
 
 #### 软件架构
 软件架构说明
