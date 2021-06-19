@@ -9,7 +9,7 @@
 
 U8G2_SSD1306_128X64_NONAME_F_HW_I2C u8g2(U8G2_R0, /* reset=*/ U8X8_PIN_NONE);//构建u8g2
 
-uint8_t buff[1024] PROGMEM= {}; ////定义缓冲区 128 * 64 / 8 = 1024
+uint8_t buff[1024]= {}; ////定义缓冲区 128 * 64 / 8 = 1024
 const char* ssid     = "nova 6"; //填写你的wifi名字
 const char* password = "123456789"; //填写你的wifi密码
 const int httpPort = 8888; //设置上位机端口
