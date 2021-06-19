@@ -7,15 +7,15 @@ B站：super大大怪i
 
 oled显示助手v1.1链接：
 
-复制这段内容后打开百度网盘App，操作更方便哦。 
-链接:https://pan.baidu.com/s/1vYzb4HZ_ok3S7kn4yLdSwQ 
-提取码:m1ys
-
+    复制这段内容后打开百度网盘App，操作更方便哦。 
+    链接:https://pan.baidu.com/s/1vYzb4HZ_ok3S7kn4yLdSwQ 
+    提取码:m1ys
+    
 oled显示助手v1.2链接：请看版本更新说明
 
-链接：https://pan.baidu.com/s/12cyvd74OJ7UvAfkQ6g56_A 
-提取码：s56g 
-复制这段内容后打开百度网盘手机App，操作更方便哦
+    链接：https://pan.baidu.com/s/12cyvd74OJ7UvAfkQ6g56_A 
+    提取码：s56g 
+    复制这段内容后打开百度网盘手机App，操作更方便哦
 
 关于软件，大家可以提出意见或想法，我会优化
 
@@ -26,9 +26,9 @@ oled显示助手v1.2链接：请看版本更新说明
     oled显示助手由Python-tkinter编写  
 
 #### 接线说明
-esp32 iic默认引脚（scl=22，sda=21）
-
-esp8266 iic默认引脚（scl=5，sda=4）
+    esp32 iic默认引脚（scl=22，sda=21）
+    
+    esp8266 iic默认引脚（scl=5，sda=4）
 
 也可以在u8g2构建对象那里参数更改为其他引脚，但是建议使用硬件IIC，速度更快
 
