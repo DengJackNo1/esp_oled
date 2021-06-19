@@ -26,7 +26,6 @@ oled显示助手v1.2链接：请看版本更新说明
     oled显示助手由Python-tkinter编写  
 
 #### 接线说明
-
 esp32 iic默认引脚（scl=22，sda=21）
 
 esp8266 iic默认引脚（scl=5，sda=4）
