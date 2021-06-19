@@ -36,6 +36,8 @@ esp8266 iic默认引脚（scl=5，sda=4）
 
 让esp32连接到同一个局域网中（同一路由器或电脑热点），连接成功后，OLED会显示连接成功
 
+![连接说明](https://images.gitee.com/uploads/images/2021/0619/140333_291e2a59_8230134.png "[`C`~4CZ04{T(~FG9VYC{8K.png")
+
 ![wifi连接](https://images.gitee.com/uploads/images/2021/0619/113516_f13c384a_8230134.png "ML~C~G)CB[TH(IZ{W~Y`TJ6.png")
 
 ![服务端连接成功](https://images.gitee.com/uploads/images/2021/0619/113239_73ba6e47_8230134.png "OUHT[)UOZ4_`{Z]LZKNUDZI.png")
