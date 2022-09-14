@@ -1,3 +1,4 @@
+
 # esp32 wifi 投屏到oled显示
 ![输入图片说明](https://images.gitee.com/uploads/images/2021/0618/220421_c973b67e_8230134.jpeg "DEF36BFE50827F5CBBBB3FA28807F911.jpg")
 #### 介绍
@@ -6,6 +7,8 @@
 使用流程：先打开上位机服务端，然后复位板子连接，顺序不要颠倒。
 
 B站：super大大怪i
+## fork from https://gitee.com/superddg123/esp32-oled.git 
+因为部分使用者esp8266 输入后投屏失败,提供的说明和修改版
 
 oled显示助手v1.1链接：
 
