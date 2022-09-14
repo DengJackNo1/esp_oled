@@ -5,7 +5,11 @@
 #include<U8g2lib.h>
 #include<U8x8lib.h>
 #include<Wire.h>
-#include <WiFi.h>//esp8266用这个库#include <ESP8266WiFi.h>
+#ifdef ESP8266
+  #include <ESP8266WiFi.h> //esp8266用这个库#include <ESP8266WiFi.h>
+#elif defined ESP32
+  #include <WiFi.h>  // ESP32
+#endif
 
 U8G2_SSD1306_128X64_NONAME_F_HW_I2C u8g2(U8G2_R0, /* reset=*/ U8X8_PIN_NONE);//构建u8g2
 
@@ -74,8 +78,8 @@ void loop() {
   while (client.available()) {
     start_time = millis();
     read_count = client.read(buff, 1024); //向缓冲区读取数据
-    byte_reverse(buff);//转换费时间，可考虑pc端处理
     if (read_count == 1024) {
+      //byte_reverse(buff);//转换费时间，可考虑pc端处理,已经在pc端反转
       read_count = 0;
       frame_count++;//帧数计数
       u8g2.clearBuffer();             //清除缓冲区 清屏
